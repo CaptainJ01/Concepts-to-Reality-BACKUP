@@ -8,16 +8,6 @@
 
 <pre>																				  <button type="button" onclick="alert('Hello world!')">Sign Up</button>  <button type="button" onclick="alert('Hello world!')">Log In</button></pre>
 
-<style>
-div.cities {
-    background-color: darkgrey;
-    color: white;
-    margin: 10px 0 10px 0;
-    padding: 2px;
-}
-</style>
-</head>
-
 <body>
 
 <div class="cities">
@@ -46,15 +36,7 @@ div.cities {
 </div>
 
 
-<styLe>
-div.cities {
-    background-color: darkgrey;
-    color: white;
-    margin: 10px 10 10px 10;
-    padding: 2px;
-}
-</style>
-</head>
+
 <body>
 <div class="cities">
 <pre><h2><center><font size="7" color="A52A2A">Top Concepts of 2015</font></center></h2></pre>
