@@ -1,3 +1,6 @@
-div.cities{
-	background-color: #333
+div.cities {
+    background-color: blue;
+    color: white;
+    margin: 10px 10 10px 10;
+    padding: 2px;
 }
