@@ -9,6 +9,13 @@ ul {
  /* position: fixed; */
 }
 
+div.cities {
+    background-color: darkgrey;
+    color: white;
+    margin: 10px 10 10px 10;
+    padding: 2px;
+}
+
 li {
     float: left;
 }
@@ -33,14 +40,47 @@ li a:hover {
     background-color: #111;
 }
 
+/* A bunch of test shadowing and styling (below) */
+
 h1 {
     text-shadow: 0px 0px 8px #ff0000;
 }
 
-p {
+.subtitle {
     text-shadow: 0px 0px 8px #ff0000;
 }
 
 h3 {
     text-shadow: 2px 2px 8px #d90000;
+}
+
+/* video dive block styling */
+.video{
+	background-color: #a9a9a9;
+	padding: 10px 0px 0px ;
+}
+
+.ferrari1{
+	float:left;
+}
+.ferrari2{
+	float:right;
+	margin-top: 40px;	
+}
+.ferrari3{
+	float:left;
+	margin-top: 175px;
+	margin-right: 75px;
+}
+.ferrari4{
+	float:right;
+	margin-top: 166px;
+}
+.seats{
+	color: #800000;
+	font-size: 150%
+}
+.engine{
+	color: #800000;
+	font-size: 150%
 }
