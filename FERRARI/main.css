@@ -69,12 +69,13 @@ h3 {
 }
 .ferrari3{
 	float:left;
-	margin-top: 175px;
+	margin-top: 75px;
 	margin-right: 75px;
 }
 .ferrari4{
 	float:right;
-	margin-top: 166px;
+	margin-top: 245px;
+	margin-right: -250px;
 }
 .seats{
 	color: #800000;
