@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FERRARI page</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body background="background1.jpg">
+
+<!-- top bar (bellow) !-->
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#login">Login</a></li>
+  <li><a href="#Sign Up">Sign Up</a></li>
+  <li><a href="#other">Other</a></li>
+</ul>
+
+
+<!-- Title code (below) !--> 
+<center><h1><font size="6" color= "crimson" >FERRARI</font></h1>
+<p class="subtitle"><font size="6" color="black">f80</font></p></center>
+
+<!-- Slide show code (below) !-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</body>
+<body>
+
+<div class="w3-content" style="max-width:800px;position:relative">
+  <img class="mySlides" src="ferrari1.jpg" style="width:100%"> 
+  <img class="mySlides" src="ferrari2.jpg" style="width:100%">
+  <img class="mySlides" src="ferrari3.jpg" style="width:100%"> 
+  <img class="mySlides" src="ferrari4.jpg" style="width:100%"> 
+
+  <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><</a>
+  <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">></a>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+<!-- This is  taken from w3scools !--> 
+<!-- END of slideshow code !-->
+
+<pre>
+
+
+</pre>
+
+
+<!-- Stats for text (below) !-->
+<h3><center><font size="6" color="maroon"> About </font></center></p>
+
+<h4><center><font size="6" color="maroon"> 
+<pre>
+Designer: Adriano Raeli
+HP: 1200
+Top Speed: 310mph
+Engine: V8 twin turbo
+Accelaration: 2.2 seconds (0-62mph)
+</pre></font></center></h4>
+
+<!-- Youtube video with div (below) !--> 
+<div class="video"><center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C_E3bSFi8lI" frameborder="0" allowfullscreen>
+</iframe> 
+</center></div>
+
+<br>
+<br>
+
+<img class="ferrari1" src="ferrari1.jpg" width="250" height="166">
+<p class="seats">With a new revolutionary flex-fabric, the Farrari F80's interrior lives up to Ferrari's standards. This 2 seater beast has paddles instead of clutch as many super sport cars. With surrounds sound and a roaring v12 engine behind your ears, this car is sure not to go unnoticed. <br><br></h4>
+<img class="ferrari2" src="ferrari2.jpg" width="250" height="166">
+<pre><p class="engine"><br>		    This mosnter's engine is a wopping V12 engine. Its a 1200 horse<br>		    power car, this is almost a rival to Bugatti Veyron's 1600 HP. </pre>
+<img class="ferrari3" src="ferrari3.jpg" width="250" height="166">
+<p class="build"> 
+<img class="ferrari4" src="ferrari4.jpg" width="250" height="166">
+
+
+ 
+</body>
+</html>
