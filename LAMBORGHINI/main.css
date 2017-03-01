@@ -30,7 +30,7 @@ li {
 
 li a {
     display: block;
-    color: #a52a2a;
+    color: #c0c0c0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -43,15 +43,15 @@ li a:hover {
 /* A bunch of test shadowing and styling (below) */
 
 h1 {
-    text-shadow: 0px 0px 8px #ff0000;
+    text-shadow: 0px 0px 8px #ffffff;
 }
 
 .subtitle {
-    text-shadow: 0px 0px 8px #ff0000;
+    text-shadow: 0px 0px 8px #ffffff;
 }
 
 h3 {
-    text-shadow: 2px 2px 8px #d90000;
+    text-shadow: 2px 2px 8px #c0c0c0;
 }
 
 /* video dive block styling */
@@ -78,15 +78,15 @@ h3 {
 	margin-right: -250px;
 }
 .seats{
-	color: #800000;
+	color: #a9a9a9;
 	font-size: 150%
 }
 .engine{
-	color: #800000;
+	color: #a9a9a9;
 	font-size: 150%
 }
 
 .build {
-	color: #800000;
+	color: #a9a9a9;
 	font-size: 150%;
 }
